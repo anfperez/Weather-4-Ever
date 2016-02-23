@@ -13,5 +13,6 @@
 
 <h2> Media </h2>
 <ul>
+<li> <a href = "http://openweathermap.org/api"> Open Weather Map API </a> </li>
 <li> Flat White Weather Icon Set by <a href = "http://lavana.deviantart.com/art/Flat-Weather-Icons-32021664"> Lavana on DeviantArt</a></li>
 </ul>
