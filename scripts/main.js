@@ -35,15 +35,14 @@ var randomColor = function() {
 			var current_time = moment().format('MMMM Do YYYY, h:mm:ss a')
 			var sky = data.weather[0].description
 			$('#forecast').text("The current temperature in " + $('.pure-input-rounded').val() + " is " + temp + " degrees Fahrenheit at " + current_time + ". It is currently " + sky + "."  )
-			$('.pure-input-rounded').val(''); 
 			if (sky.includes("clear")) {
 				sky_gif = "Flat_White/36.png"
 			}
 			else if (sky.includes("rain")) {
-				sky_gif = "Flat_White.png"
+				sky_gif = "Flat_White/2.png"
 			}
 			else if (sky.includes("thunderstorm")) {
-				sky_gif = "Flat_White.png"
+				sky_gif = "Flat_White/1.png"
 			}
 			else if (sky.includes("snow")) {
 				sky_gif = "Flat_White/16.png"
@@ -54,7 +53,8 @@ var randomColor = function() {
 			else {
 				sky_gif = "Flat_White/26.png"
 			}
-			var sky_image = $('img').attr('src', sky_gif)
+			var sky_image = $('img').attr('src', sky_gif);
+			$('.pure-input-rounded').val(''); 
 		
 		}
 
