@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Vain</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
+  <link rel="stylesheet" href="stylesheets/pure.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<h1> Weather 4 Ever </h1>
+<body class = "change">
+  <p class="prompt">Type in a US city to get temperature data!</p>
+  <form class="pure-form">
+    <input type="text" class="pure-input-rounded">
+    <button type="submit" class="pure-button">Search</button>
+  </form>
+
+  <p id="forecast"></p>
+
+  <div class = "gif_place"> <center>
+  <img>
+  </div>
+
+  <p class="date"></p>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="scripts/moment.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
