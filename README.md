@@ -17,4 +17,4 @@
 <li> Flat White Weather Icon Set by <a href = "http://lavana.deviantart.com/art/Flat-Weather-Icons-32021664"> Lavana on DeviantArt</a></li>
 </ul>
 
-<img src= "http://imgur.com/qw82tAh" alt = "begin"> 
+<img src= "http://i.imgur.com/qw82tAh.png?1" alt = "begin"> 
