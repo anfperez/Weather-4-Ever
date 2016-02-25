@@ -1,5 +1,8 @@
 <h1> Weather 4 Ever </h1>
 
+<h2> Description </h2>
+<p> This is a very basic weather forecaster for US cities. The purpose of this project was to practice making AJAX calls to APIs. You can type in a city and get a basic weather forecast.</p>
+
 <h2> Technologies Used </h2>
 <ul>
 <li> HTML5 </li>
@@ -7,9 +10,6 @@
 <li> JavaScript </li>
 <li> jQuery/Ajax </li>
 </ul>
-
-<h2> Description </h2>
-<p> This is a very basic weather forecaster for US cities. The purpose of this project was to practice making AJAX calls to APIs. You can type in a city and get a basic weather forecast.</p>
 
 <h2> Media </h2>
 <ul>
