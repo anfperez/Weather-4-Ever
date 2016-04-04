@@ -26,7 +26,7 @@ var randomColor = function() {
 		console.log("click noticed")
 	$.ajax({
 		// var city = $('.pure-input-rounded').val()
-		url: "http://api.openweathermap.org/data/2.5/weather?q=" + $('.pure-input-rounded').val() + ",US&appid=44db6a862fba0b067b1930da0d769e98&units=Imperial",
+		url: "http://api.openweathermap.org/data/2.5/weather?q=" + $('.pure-input-rounded').val() + ",US&appid=&units=Imperial",
 		type: "GET",
 		success: function(data){
 			debugger
