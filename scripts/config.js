@@ -1,0 +1,1 @@
+var open_weather_api_key = "6549863730776a52fadf3fe935d5eecc";
